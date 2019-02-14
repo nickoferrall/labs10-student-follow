@@ -1,5 +1,5 @@
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('followups', tbl => {
+  return knex.schema.createTable('refreshrs', tbl => {
     tbl.increments();
     tbl.date('date');
     tbl
